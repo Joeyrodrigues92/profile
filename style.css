@@ -1,0 +1,115 @@
+html, body{
+	height: 100%;
+}
+.jumbotron{
+	position: fixed;
+	background-image: url(images/porto.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: -99;
+	height: 1264px;
+	width: 1349px;
+}
+#quote {
+	width: 1200px;
+	margin: auto;
+	color: white;
+	
+}
+
+#overlay {
+	position: absolute;
+	top: 0px;
+	height: 1080px;
+	border: 2px solid blue;
+	width: 1349px;
+	background-color: black;
+	opacity: 0.15;
+	z-index: -50;
+}
+
+#container{
+	position: absolute;
+	top: 420px;
+	left: 40px;
+	bottom: 50px;
+	background-color: white;
+	z-index: 50px;
+	height: 3000px;
+	width: 1264px;
+	
+}
+.name{
+	margin: auto;
+	height: 200px;
+	width:810px;
+	color: black;
+}
+#name{
+	font-size: 100px;
+}
+nav {
+	padding-left: 300px;
+}
+#about{
+	border: 2px solid red;
+	margin-top: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 300px;
+}
+
+#portfolio{
+/*	border: 2px solid blue;*/
+	margin-top: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 800px;
+}
+
+#nyt {
+	height:113px;
+	width: 580px;
+/*	background-image: url(images/nyt.jpg);*/
+	border: 1px solid black;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+#trivia{
+/*	border: 2px solid green;*/
+	width: 484px;
+}
+#contact{
+	border: 2px solid purple;
+	margin-top: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 500px;
+}
+#liri {
+	width:480px; 
+	/*border: 2px solid orange;*/
+	float: right;
+	margin-right: 136px;
+	margin-left: 300px;
+}
+#liri-gif{
+	width: 480px;
+}
+
+
+/*#inside {
+	border: 2px solid red;
+}
+ul{
+	float: right;
+	margin-bottom: 5px;
+}
+.container.text-center{
+	border: 2px solid red;
+	width: 1000px;
+} 
+a{
+	color: white;
+	background-color: yellow;
+}*/
