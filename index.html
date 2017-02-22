@@ -1,121 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-     
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-    a {
-      font-size: 25px;
-    }
-    
-  </style>
-</head>
-<body>
-
-
-  <div class="jumbotron">
-      <div id="quote">
-        <h1>"There are no secrets to success. It is the result of preparation, hard work, and learning from failure."
-        --Colin Powell</h1>
-      </div> 
-    <div id="overlay"></div>
-  </div>
-
-  <div id="container">
-    <div class="name">
-      <h1 id="name">Joey L. Rodrigues</h1> 
-        <nav>
-          <button>About</button>
-          <button>Portfolio</button>
-          <button>Contact</button> 
-        </nav> 
-    </div>     
-    <div id="about">
-        <p>About me....</p>
-    </div>
-    
-
-     <div id="portfolio"> 
-      <h2>Some of My Projects..
-      <div id="nyt">
-        <a href="https://rcb2-hw02-apis-jrtk.herokuapp.com/"><img src="images/nyt.jpg"></a>
-      </div>
-      <div id="trivia">
-        <iframe   src="https://giphy.com/embed/MWMrXdnYIc2Zi" width="480" height="256" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://pacific-fjord-56375.herokuapp.com/">Trivia Game</a></p>
-      </div>
-        <div id="liri">
-          <p><a href="https://github.com/Joeyrodrigues92/liri-node-app">Liri-Node-App.</a></p>
-          <img id="liri-gif" src="images/liri-gif.gif"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bethany Bootstrap Theme</title>
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- =======================================================
+        Theme Name: Bethany
+        Theme URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+        Author: BootstrapMade.com
+        Author URL: https://bootstrapmade.com
+    ======================================================= -->
+  </head>
+  <body>
+    <!--header-->
+    <header class="main-header" id="header">
+        <div class="bg-color">
+            <!--nav-->
+            <nav class="nav navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                            <a href="index.html" class="navbar-brand">Joey L. Rodrigues</a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#header">Home</a></li>
+                                <li><a href="#feature">About</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--/ nav-->
+            <div class="container text-center">
+                <div class="wrapper wow fadeInUp delay-05s" >
+                    <h3 class="title">Joey L.R.</h3>
+                    <h4 class="sub-title">Full Stack Web Developer</h4>
+                </div>
+            </div>
         </div>
-       <a href="https://songroulette.herokuapp.com/"><img id="songRou" src="images/sr.jpg"></a>
-     </div>
+    </header>
+    <!---->
 
-
-     <div id="contact">
-        <h2>Reach Me Here.<h2>
-          <p >Joey L. Rodrigues
-          <br>
-          1152 Coolidge rd.
-          <br>
-          Elizabeth, NJ. 07208
-          <br>
-          <a href="mailto: joeyrodrigues92@gmail.com">Joeyrodrigues92@gmail.com</a>
-          </p>
-      <div id="icon">
-        
-        
-      </div>
-       
-     </div>
-
-
-  
-
-  <!-- <div id="inside">
-     
-      <h1>
-        Hello, 
-        <br>
-        im Joey L. Rodrigues
-      </h1> 
-    <ul class="nav nav-pills">
-      <li role="presentation"><a href="#">About</a></li>
-      <li role="presentation"><a href="#">Portfolio</a></li>
-      <li role="presentation"><a href="#">Contact</a></li>
-    </ul>
-  </div>
-
-  
-  <div class="container-fluid bg-3 text-center">    
-    <h3>Some of my Work</h3><br>
-    <div class="row">
-   -->
+    <!---->
+    <section id="feature" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 wow fadeInLeft delay-05s">
+                    <div class="section-title">
+                        <h2 class="head-title">My Story</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInRight delay-02s">
+                        <div class="icon">
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                        <div class="icon-text">
+                            <h3 class="txt-tl">Born and raised in Elizabeth. I enjoy cooking, coding, music, soccer, and the company of good friends. The rapid growth of technology sparked and interest in this new industry. I jumped into web developement, with no experience at 24. 
+                            <br>
+                            Took a course at Rutgers, and havent looked back. I've learned everything you can from making HTML web pages to creating my own database using MySQL. I'm always intrigued to learn new tricks, and techniques. Some of my strengths have been, being able to communicate thouroughly with others, and helping them achieve a goal, especially with clients. Mental toughness, and hard-work, are other great qualities of mine. </h3>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <section class="section-padding parallax bg-image-2 section wow fadeIn delay-08s" id="cta-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="cta-txt">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!---->
+    <section class="section-padding wow fadeInUp delay-02s" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="section-title">
+                        <h2 class="head-title">Portfolio</h2>
+                        <hr class="botm-line">
+                        <p class="sec-para">I’ve worked with, HTML, CSS, JavaScript, jQuery, ajax call, timers, Node.js, Express, MySQL, Firbase (hate it!), and many more.</p>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <div class="col-md-4 col-sm-6 padding-right-zero">
+                        <div class="portfolio-box design">
+                            <img src="img/nyt.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padding-right-zero">
+                        <div class="portfolio-box design">
+                            <img src="img/port02.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padding-right-zero">
+                        <div class="portfolio-box design">
+                            <img src="img/port03.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padding-right-zero">
+                        <div class="portfolio-box design">
+                            <img src="img/port04.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padding-right-zero">
+                        <div class="portfolio-box design">
+                            <img src="img/port05.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padding-right-zero">
+                        <div class="portfolio-box design">
+                            <img src="img/port06.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!---->
+    <section class="section-padding wow fadeInUp delay-05s" id="contact">
+        <div class="container">
+            <div class="row white">
+                <div class="col-md-8 col-sm-12">
+                    <div class="section-title">
+                        <h2 class="head-title black">Contact Me</h2>
+                        <hr class="botm-line">
+                        <p class="sec-para black">Give me a call, text, follow, or even email!</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <div class="col-md-4 col-sm-6" style="padding-left:0px;">
+                        <h3 class="cont-title">Connect </h3>
+                        <a href="#"><img src ='img/git.png'></img></a>
+                        <a href="#"><img src ='img/link.png'></img></a>
+                        <a href="#"><img src ='img/mail.png'></img></a>
+                    
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <h3 class="cont-title">Where you can find me</h3>
+                        <div class="location-info">
+                            <p class="white"><span aria-hidden="true" class="fa fa-map-marker"></span>1152 Coolidge Rd. 
+                            <br>
+                            Elizabeth, NJ 07208</p>
+                            <p class="white"><span aria-hidden="true" class="fa fa-phone"></span>Phone: 908 316 2443</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-icon-container hidden-md hidden-sm hidden-xs">
+                            <span aria-hidden="true" class="fa fa-envelope-o"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!---->
+    <footer class="" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 footer-copyright">
+                    © Joey L. Rodrigues - All rights reserved
+                    <div class="credits">
+                        <!-- 
+                            All the links in the footer should remain intact. 
+                            You can delete the links only if you purchased the pro version.
+                            Licensing information: https://bootstrapmade.com/license/
+                            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bethany
+                        -->
+                        Designed by <a href="https://bootstrapmade.com/">Bootstrap Themes</a>
+                    </div>
+                </div>
+                <div class="col-sm-5 footer-social">
+                    <div class="pull-right hidden-xs hidden-sm">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---->
+    <!--contact ends-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
     
-<!--     </div> -->
- <!--  </div><br> -->
-  </div>
-
-
-
-<footer style="background-color: black;" class="navbar navbar-default navbar-fixed-bottom">
-  <p>Footer Text</p>
-</footer>
-
-</body>
+  </body>
 </html>
