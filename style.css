@@ -3,7 +3,7 @@ html, body{
 }
 .jumbotron{
 	position: fixed;
-	background-image: url(images/porto.jpg);
+	background-image: url(images/space.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	z-index: -99;
